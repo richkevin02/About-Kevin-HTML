@@ -3,20 +3,68 @@
 <head>
     <title>about Kevin - Who is Kevin?</title>
     <meta charset="utf-8">
+    <style>
+        body{
+            margin: 1px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 185px 1fr;
+        }
+       a{
+            text-decoration: none;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 3px solid gray;
+            margin: 0;
+            padding: 15px;
+        }
+        ol{
+            border-right: 3px solid gray;
+            margin: 0;
+            padding: 20px;
+            width: 125px;
+        }
+        #grid ol{
+            padding-left: 33px;
+        }
+        #article{
+            padding-left: 23px;
+        }
+        a:link{
+            color: forestgreen;
+        }
+        a:visited{
+            color: cornflowerblue;
+        }
+        a:hover{
+            color: midnightblue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: midnightblue;
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">Kevin</a></h1>
+<div id="grid">
     <ol>
         <li><a href="1.html">Who is Kevin?</a></li>
         <li><a href="2.html">Dreams</a></li>
         <li><a href="3.html">To end this up</a></li>
     </ol>
-    <h2>Who is <a href=" https://www.instagram.com/noonnofus/" target="_blank" title="Kevin's Instagrma"></a>Kevin?</a></h2>
-    <p><strong>I</strong> am a person who born in <u>Nov, 30th, 2002 in Ontario, Canada.</u> Furthermore, I and my family came back to Korea and I started to learn Korean at the same time because I had no idea of the Korean language and I used only English with my parents when I was in Canada.
-    <br>I adjusted to Korea pretty well, but after I <u>graduated middle school in Korea</u>, I decided to <u>go back to Canada</u> for my future.
-        <img src=whoisKevin.jpeg width=85%></p>
-    <p>Back to the time when I was there as a high school student, I experienced a lot of things such as <strong> the difference in culture between Korea and Canada, and people. </strong>
-    <br>Three years after graduating high school in Canada, I returned to Korea. It was really hard to stay there, but I have changed a lot in a positive way, hence I am able to plan my life and get numerous dreams. 
-    <br>Besides, I applied to College that is famous for Computer Science in Canada, because I want to be a <strong>web developer.</strong></p>
+    <div id="article">
+        <h2>Who is <a href="https://www.instagram.com/noonnofus/" target="_blank" title="My Instagram">Kevin?</a></h2>
+        <p><strong>I</strong> am a person who born in <u>Nov, 30th, 2002 in Ontario, Canada.</u> Furthermore, I and my family came back to Korea and I started to learn Korean at the same time because I had no idea of the Korean language and I used only English with my parents when I was in Canada.
+        <br>I adjusted to Korea pretty well, but after I <u>graduated middle school in Korea</u>, I decided to <u>go back to Canada</u> for my future.
+            <img src=whoisKevin.jpeg width=85%></p>
+        <p>Back to the time when I was there as a high school student, I experienced a lot of things such as <strong> the difference in culture between Korea and Canada, and people. </strong>
+        <br>Three years after graduating high school in Canada, I returned to Korea. It was really hard to stay there, but I have changed a lot in a positive way, hence I am able to plan my life and get numerous dreams. 
+        <br>Besides, I applied to College that is famous for Computer Science in Canada, because I want to be a <strong>web developer.</strong></p>
+    </div>
+</div>
 </body>
 </html>

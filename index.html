@@ -3,19 +3,67 @@
 <head>
     <title>About Kevin - Welcome</title>
     <meta charset="utf-8">
+    <style>
+        body{
+            margin: 1px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 185px 1fr;
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            border-bottom:3px solid gray;
+            margin: 0px;
+            padding: 15px;
+        }
+        ol{
+            border-right: 3px solid gray;
+            margin: 0;
+            padding: 20px;
+            width: 125px;
+        }
+        #grid ol{
+            padding-left: 33px;
+        }
+        #article {
+            padding-left: 23px;
+        }
+        a:link{
+            color: forestgreen;
+        }
+        a:visited{
+            color: cornflowerblue;
+        }
+        a:hover{
+            color: midnightblue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: midnightblue;
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">Kevin</a></h1>
+<div id="grid">
     <ol>
         <li><a href="1.html">Who is Kevin?</a></li>
         <li><a href="2.html">Dreams</a></li>
         <li><a href="3.html">To end this up</a></li>
     </ol>
-    <h2>What is this page for?</h2>
-    <p>Hey you!</p>
-    <p>Stranger!</p>
-    <p>Right here!</p>
-    <p>Welcome to this page for <strong>Kevin!</strong> This page introduces Kevin who made this page. I made this to study computer languages(HTML, CSS). Before you look at this website,  I want you to know that I'll be in Canada as a University student in this(2023) September and my major is <strong>Computer Science.</strong></p> 
-    <p>I don't think someone will see this page except my friends or the person around me, but if you are a person who I don't know and seeing this, then <strong>I appreciate seeing this page</strong> that I made. Besides, if you have any questions or advice, then please contact me at the <strong>email</strong> below. <br><u>kevintoron02@naver.com</u></p>
+    <div id="article">
+        <h2>What is this page for?</h2>
+        <p>Hey you!</p>
+        <p>Stranger!</p>
+        <p>Right here!</p>
+        <p>Welcome to this page for <strong>Kevin!</strong> This page introduces Kevin who made this page. I made this to study computer languages(HTML, CSS). Before you look at this website,  I want you to know that I'll be in Canada as a University student in this(2023) September and my major is <strong>Computer Science.</strong></p> 
+        <p>I don't think someone will see this page except my friends or the person around me, but if you are a person who I don't know and seeing this, then <strong>I appreciate seeing this page</strong> that I made. Besides, if you have any questions or advice, then please contact me at the <strong>email</strong> below. <br><u>kevintoron02@naver.com</u></p>
+    </div>
+</div>
 </body>
 </html>
